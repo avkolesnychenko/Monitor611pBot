@@ -4,8 +4,8 @@ from telebot import types
 from apscheduler.schedulers.background import BackgroundScheduler
 from datetime import date, datetime, timedelta
 
-TOKEN = "7197275852:AAHj6uZ64idQ3GA3q5FLStsw5o3Y6q_nIJA"
-CHAT_ID = -4825230345
+TOKEN = "token"
+CHAT_ID = 123
 
 bot = telebot.TeleBot(TOKEN)
 scheduler = BackgroundScheduler()
